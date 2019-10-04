@@ -60,3 +60,8 @@ input{
     width:100%;
 }
 
+#myForm{
+    padding-top:20px;
+    font-family: 'Grenze', serif;
+}
+
