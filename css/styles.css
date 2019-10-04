@@ -54,3 +54,9 @@ ul {
 .carousel-item>img {
     height:60vh;
 }
+
+input{
+    margin-top:5px;
+    width:100%;
+}
+
