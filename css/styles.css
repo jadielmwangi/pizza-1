@@ -26,22 +26,7 @@ ul {
     padding: 14px 16px;
     text-decoration: none;
   }
-
-  .home-heading{
-      text-align: center;
-      background-image: url("https://wallpaperaccess.com/full/688614.jpg");
-      background-repeat: no-repeat;
-      background-size: cover;
-      height: 60vh;
-      color:white;
-      
-  }
-
-  .home-heading p{
-      font-size:30px;
-      font-family: 'Grenze', serif;
-  }
-
+  
   .about-content{
       text-align: center;
       font-family: 'Grenze', serif;
@@ -66,3 +51,6 @@ ul {
       height:250px;
   }
 
+.carousel-item>img {
+    height:60vh;
+}
