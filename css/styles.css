@@ -75,3 +75,6 @@ input{
     background-color:#b0adac;
 }
 
+#contactForm{
+    display: inline-block;
+}
