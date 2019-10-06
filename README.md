@@ -8,11 +8,14 @@ This is a pizza shop website where users can order one or even more pizzas  and 
 ## Project live site
   This is the live link .[ https://github.com/margaret254/pizza ]()
 
-  ![Image](/home/moringa/Documents/moringa-prep/pizza/images/web-screenshot.png)
+  ![Image](images/web-screenshot.png)
 
 ## Setup instructions
 * Clone the program from [Online repo]()
 * Click on the green button to clone or download
+* open your terminal 
+* cd into Documents/moringa-prep/pizza
+* open with your favourite text editor, for vs code,code . or atom . for atom.
 
 ## Behavior Driven Development
 <table>
