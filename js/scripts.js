@@ -59,8 +59,8 @@ $(document).ready(function () {
       }else{
           if(pizzaPick===2){
               prompt("Enter the location of your delivery.");
-              alert("Your order has been received and it will be delivered. Continue to see your order details");
-              alert("Your order is : " + newOrder.fullOrder() + ". Continue to see your total bill");
+              alert("Your order has been received and it will be delivered. Continue to see  the details of your order");
+              alert("Your order is : " + newOrder.fullOrder() + ". Click okay to see your total bill");
               alert("Your bill is : " + newTotal.finalTotal());
           }
       }
