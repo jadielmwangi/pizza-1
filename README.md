@@ -41,7 +41,7 @@ This is a pizza shop website where users can order one or even more pizzas  and 
     </tr>
     <tr>
         <td>Enter Email && Message</td>
-        <td>['Email','Message']</td>
+        <td>['Email':'Message']</td>
         <td>Email && Message</td>
     </tr>
     <tr>
