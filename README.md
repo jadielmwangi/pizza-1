@@ -47,7 +47,7 @@ This is a pizza shop website where users can order one or even more pizzas  and 
     <tr>
         <td>Submit</td>
         <td>Email && Message</td>
-        <td>'Hi Serah we have received your message and we will get in touch. Thank you for contacting us'</td>
+        <td>Hi Serah we have received your message and we will get in touch. Thank you for contacting us</td>
     </tr>
        
 </table>

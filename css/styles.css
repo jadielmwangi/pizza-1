@@ -1,3 +1,9 @@
+.carousel-caption{
+    font-family: 'Amaranth', sans-serif;
+    font-size:25px;
+    
+}
+
 body{
     background-color:#E7E0DF  ;
 }
@@ -79,3 +85,9 @@ input{
     display: inline-block;
     width:100%;
 }
+
+@media screen and (max-width:800px) {
+    .left, .main, .right {
+      width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }

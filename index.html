@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Grenze&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amaranth&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
 
@@ -26,22 +27,40 @@
         </ul>
     </div>
 
+    <div class="container-fluid">
     <div id="home">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img class="d-block w-100" src="images/image6.jpg " alt="First slide">
+                    <div class="carousel-caption d-none d-md-block">
+                            <p>Welcome to Meg Pizza Hut and grab your Tripple Treat Box.</p>
+                          </div>
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100" src="images/neapolitan.jpg" alt="Second slide">
+                    <div class="carousel-caption d-none d-md-block">
+                            <p>Have You tried our Neapolitan Crispy Pizza.Well,we are waiting for you.</p>
+                          </div>
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100" src="images/deep-dish.jpg" alt="Third slide">
+                    <div class="carousel-caption d-none d-md-block">
+                            <p>Wow.What about our Deep Dish Pizza with Pepperoni toppings??You can't miss this Dear.</p>
+                          </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="images/image7.jpg" alt="Fourth slide">
+                    <div class="carousel-caption d-none d-md-block">
+                            <p>Welcome one Welcome all.Come with your friends and family members<br>
+                            And Experience Amazing Offers.</p>
+                          </div>
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -53,6 +72,7 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
+    </div>
     </div>
 
     <div class="container">
@@ -104,84 +124,79 @@
         </div>
     </div>
 
-    
     <div class="container">
     <div class="row">
-        <div class="col-md-8">
-            <form id="myForm">
-                <h2>Order Online</h2>
+        <div class="col-md-4 mx-auto py-2">
+            <form id = "myForm">
+                <h2>Place Your Order</h2>
                 <div class="form-group">
                     <label for="sel1">Select type:</label>
                     <select class="form-control" id="type">
-                        <option>Margerita</option>
-                        <option>Colzone</option>
+                        <option>Margherita</option>
+                        <option>Calzone</option>
                         <option>Stromboli</option>
                         <option>Marinara</option>
-                        <option>Neapolitan</option>
-                        <option>Deep-Dish</option>
+                        <option>Neapolitant</option>
+                        <option>Deep Dish</option>
                     </select>
                 </div>
-
                 <div class="form-group">
                     <label for="sel1">Select size:</label>
                     <select class="form-control" id="size">
-                        <option>Large @ 1000</option>
-                        <option> Medium @ 800</option>
-                        <option> Small @ 600</option>
+                        <option value="1">Large---1000</option>
+                        <option value="2">Medium---800</option>
+                        <option value="3">Small---600</option>
                     </select>
                 </div>
-
                 <div class="form-group">
-                    <label for="sel1">Select Crust</label>
+                    <label for="sel1">Select crust:</label>
                     <select class="form-control" id="crust">
-                        <option>Flatbread crust</option>
-                        <option>Chicago Deep Dish crust</option>
-                        <option>Gluten-free crust</option>
-                        <option>Vegan-Friendly crust</option>
-                        <option>New Haven style crust</option>
-                        <option>New York crust</option>
+                        <option>Cripsy</option>
+                        <option>Stuffed</option>
+                        <option>Gluten-free</option>
+                        <option>Flatbread</option>
+                        <option>Vegan-Friendly></option>
+                        <option>New-Haven Style</option>
+
                     </select>
                 </div>
-
                 <div class="form-group">
-                    <label for="sel1">Select Crust</label>
+                    <label for="sel1">Select topping:</label>
                     <select class="form-control" id="top">
                         <option>Pepperoni</option>
-                        <option>Onions</option>
+                        <option>Mushrooms</option>
+                        <option>onions</option>
                         <option>Sausage</option>
-                        <option>Cheese</option>
                         <option>Bacon</option>
-                        <option>Green Peppers</option>
+                        <option>Cheese</option>
                     </select>
                 </div>
-
-                <div class="form-group">
-                    <label for="sel5">Quantity</label>
-                    <div class="input">
-                        <input type="number" min="1" max="15" id="qty">
-                        </div>
+                <div class="form-group" required>
+                    <label for="sel1">Quantity:</label>
+                    <input type="number" id="qty" class="form-control" min="1" required>
                 </div>
+                <div class="form-group" required="">
+                    <label for="sel1">Delivery option:</label>
+                    <select class="form-control" id="pick">
+                        <option value="1">Self pick up</option>
+                        <option value="2">Delivery @ Ksh.200</option>
 
-                <div class="form-group">
-                    <label for="sel6">Delivery Option:</label>
-                    <select class="form-control"  id="pick">
-                        <option>Self Pick UP.</option>
-                        <option>Delivery @ ksh.200</option>
                     </select>
                 </div>
- 
+                
                 <div class="form-group">
 
-                    <button type="submit" class="btn btn-danger btn-block">checkout</button>
+                    <button type="submit" class="btn btn-danger btn-block">Place an Order</button>
 
                 </div>
             </form>
         </div>
-    </div>
-    </div>
 
-     <!--contact section-->
-     <section id="contact" class="cont">
+    </div>
+    </div>
+    <!--end of order section-->
+    <!--contact section-->
+    <section id="contact" class="py-5  bg-warning">
         <div class="container">
             <!--section title-->
             <div class="row">
@@ -200,7 +215,7 @@
                     <div class="card card-body bg-secondary">
                         <!--tittle-->
                         <div class="card-title text-center text-white">
-                            <h2 class="text-capitalize">Contact Us Here</h2>
+                            <h2 class="text-capitalize">contact us Here</h2>
                             
 
                         </div>
@@ -218,10 +233,10 @@
                             </div>
                             <!--phone-->
                             <div class="form-group mt-3">
-                                <input type="text" id="mess" class="form-control" placeholder="Write Your Message Here..." required>
+                                <input type="text" id="mess" class="form-control" placeholder="Write your message here..." required>
                             </div>
                             <button type="submit"
-                                class="btn btn-primary btn-block text-uppercase">submit</button>
+                                class="btn btn-primary btn-block text-uppercase">Submit</button>
 
                         </form>
                     </div>
@@ -231,20 +246,13 @@
                     <div class="embed-responsive embed-responsive-4by3">
                         <iframe class="embed-responsive-item"
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255282.35853743783!2d36.707308294417786!3d-1.302861790820887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1172d84d49a7%3A0xf7cf0254b297924c!2sNairobi!5e0!3m2!1sen!2ske!4v1567193109939!5m2!1sen!2ske"
-                            width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                            ></iframe>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col text-center">
-                    <a href="#" class="btn"><i class="fab fa-facebook fa-3x text-light m-2"></i></a>
-                    <a href="#" class="btn"><i class="fab fa-twitter fa-3x text-light m-2"></i></a>
-                    <a href="#" class="btn"><i class="fab fa-instagram fa-3x text-light m-2"></i></a>
-                    <a href="#" class="btn"><i class="fab fa-google-plus fa-3x text-light m-2"></i></a>
-                </div>
-            </div>
+            
         </div>
-        </section>
+    </section>
 
 </body>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -256,8 +264,6 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
-<script src="js/bootstrap.js"></script>
-<script src="js/jquery-3.4.1.js"></script>
 <script src="js/scripts.js"></script>
 
 </html>
